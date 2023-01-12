@@ -1,0 +1,16 @@
+{
+  "name": "credit-card-generator",
+  "version": "1.0.0",
+  "description": "A package to create and validate  a credit card number",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Allison kosy <allisonkosy@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
