@@ -74,7 +74,7 @@ function numberIsValidUsingQuestionAlgorithm(seq = '') {
     let sum = 0;
     let shouldDouble = true;
     for(let i = needed.length - 1; i > -1; i--) {
-        let num = (parseInt(needed.charAt(i)) * (shouldDouble ? 2 : 1));
+        let num = (parseInt(needed.charAt(i), 10) * (shouldDouble ? 2 : 1));
         if(isNaN(num)) {
             return false;
         }
