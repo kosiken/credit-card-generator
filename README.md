@@ -2,16 +2,22 @@
 
 You can run
 
-```js
+```sh
 
-let {generateCreditCardNumberUsingQuestionAlgorithm, numberIsValidUsingQuestionAlgorithm, numberIsValidUsingLuhnAlgo, generateCreditCardNumberLuhnAlg} = require('./index') 
-
-let n = generateCreditCardNumberUsingQuestionAlgorithm() // question algo
-console.log(n)
-console.log(numberIsValidUsingQuestionAlgorithm(n)) // question algo
-console.log(numberIsValidUsingLuhnAlgo(generateCreditCardNumberLuhnAlgo())) // luhn algo
+npm run runGenerator
 
 ```
+or 
+
+```sh
+
+node run.js
+
+``
+
+To run tests you must run `npm install` or `yarn install`
+
+
 
 # Author
 

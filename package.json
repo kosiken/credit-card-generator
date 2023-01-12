@@ -4,7 +4,8 @@
   "description": "A package to create and validate  a credit card number",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "runGenerator": "node run.js"
   },
   "author": "Allison kosy <allisonkosy@gmail.com>",
   "license": "ISC",
