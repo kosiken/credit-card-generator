@@ -4,7 +4,6 @@ let { numberIsValidUsingQuestionAlgorithm, generateCreditCardNumberUsingQuestion
 const int = readline.createInterface(
     process.stdin, process.stdout);
 
-let run = true;
 
 function validateNumber() {
     int.question('Enter the Credit card number \n | input: ', (d) => {
